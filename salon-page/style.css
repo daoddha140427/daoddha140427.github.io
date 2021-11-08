@@ -1,0 +1,265 @@
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    color: #777;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+#nav {
+    z-index: 999;
+}
+
+a.navbar-brand {
+    margin-top: -10px;
+}
+
+.navbar-brand {
+    width: 50px;
+    height: auto;
+}
+
+.navbar-brand img{
+    width: 100%;
+    height: auto;
+}
+
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.menutop .navbar {
+    background-color: #d7c2c2c7;
+}
+
+.h100 {
+    height: 100vh !important;
+}
+
+.header-wrap {
+    margin: auto;
+    max-width: 720px;
+    text-align: center;
+}
+
+.header-wrap h1{
+    font-size: 50px;
+    color: black;
+}
+
+
+.btn-header {
+    padding: 10px 50px 11px 50px;
+    background-color: brown;
+    border: none;
+}
+
+.btn-header:hover {
+    padding: 10px 50px 11px 50px;
+    background-color: rgb(197, 152, 68);
+    box-shadow: 2px 2px 4px 3px rgb(122 102 65);
+    transition: 0.4s;
+}
+
+.service-division h2{
+    font-weight: bold;
+    color: brown;
+    font-size: 40px;
+}
+
+.footer {
+    background-color: #e0cfcf;
+    color: #62322d;; 
+    padding: 15px 0 8px 0;
+    /* padding: 30px; */
+    /* box-shadow: 2px 0px 8px 1px grey; */
+}
+
+.footer h4{
+    font-weight: bold;
+}
+
+.service-img {
+    /* height: 100%; */
+    width: 100%;
+    height: auto;
+    opacity: 80%;
+}
+
+.service-item {
+    position: relative;
+    background: rgb(63, 63, 63);
+}
+
+.service-item:hover img {
+    transition: 0.4s;
+    opacity: 50%;
+}
+
+.service-item:hover {
+    cursor: pointer;
+    box-shadow: 2px 3px 5px 1px gray;
+}
+
+.service-item h3{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 140%;
+    color: #fffdfd;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #722323;
+}
+
+.heading-introduction {
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    margin: 8px 30px 8px 30px;
+    font-size: 20px;
+    color: wheat;
+}
+
+.nav-item a.nav-link {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.icon-footer-wrap{
+    max-width: 500px;
+    margin: auto;
+}
+
+.icon-footer-item{
+    margin: auto;
+    padding: 15px;
+    font-size: 30px;
+    border: solid 1px gray;
+    border-radius: 5px;
+    height: 60px;
+    width: 60px;
+    margin-left: 6px ;
+    margin-right: 6px;
+}
+
+.icon-footer-item:hover{
+    border: solid 1px rgb(255, 255, 255);
+    color: white;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #62322d;
+    text-shadow: 1px 1px 3px #62322d;
+    background: white;
+    
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.pt-30 {
+    padding-top: 30px ;
+}
+
+.mt-30 {
+    margin-top: 30px ;
+}
+
+.pt-15 {
+    padding-top: 15px ;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* service page  */
+
+.logo-top {
+    width: 100px;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.logo-top img{
+    width: 100%;
+    height: auto;
+}
+
+.service-content img{
+    width: 100%;
+    height: auto;
+}
+
+.service-para{
+    margin: 20px 0px 20px 0px;
+}
+
+.service-para h4{
+    margin: 3px 0px 4px 0px;
+    text-transform: uppercase;
+    color: rgb(29, 29, 29);
+}
+
+.service-para p{
+    margin: 3px 0px 4px 0px;
+}
+
+.btn-service{
+    margin-top: auto;
+}
+
+/* .service-para-large{
+    margin: 20px 0px 20px 0px;
+}
+
+.service-para-large h2{
+    margin: 3px 0px 4px 0px;
+}
+
+.service-para-large p{
+    margin: 3px 0px 4px 0px;
+} */
+
+
+
+/* about us page  */
+
+.about-img img{
+    width: 100%;
+    height: auto;
+}
+
+.about-img h1{
+    font-size: 78px;
+    color: rgb(180 63 51);
+    /* font-family: system-ui; */
+    text-shadow: 3px 1px 4px #604b4b;
+}
+
+.about-content h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(29, 29, 29);
+}
+
+.about-content p {
+    font-size: 20px;
+    text-align: justify;
+}
